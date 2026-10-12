@@ -3,9 +3,9 @@
 cask "itda-hyve" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.14.0"
-  sha256 arm:   "76f98620943d4be1efbc994eb2e632aec3b9c73c6d68f7f3c33c177ebc6b6ffb",
-         intel: "d955d6733a7b6c039d989d1a61823ce82a0e98b8f4e7957396cf1ef53f5c2cff"
+  version "0.15.0"
+  sha256 arm:   "111337f7c2f81cdf11dd7003113a6a7567c09c1515dfdfb60e74064f48e5e9fc",
+         intel: "27d3a65313e59ee061a15b41486ac9f048298f41d48d0d178fbb5d8482e8b4da"
 
   url "https://github.com/itda-work/itda-hyve.pub/releases/download/v#{version}/itda-hyve-#{version}-darwin-#{arch}.app.zip"
   name "itda-hyve"
